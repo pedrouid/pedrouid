@@ -16,13 +16,13 @@ const options = {
 // Text + chalk definitions
 const data = {
   name: chalk.white("               Pedro Gomes"),
-  handle: chalk.white("pedrouid"),
+  handle: chalk.white("@pedrouid"),
   work: chalk.white("Lead Developer at WalletConnect"),
   twitter: chalk.gray("https://twitter.com/") + chalk.cyan("pedrouid"),
   npm: chalk.gray("https://npmjs.com/") + chalk.red("~pedrouid"),
   github: chalk.gray("https://github.com/") + chalk.green("pedrouid"),
   linkedin: chalk.gray("https://linkedin.com/in/") + chalk.blue("pedrouid"),
-  web: chalk.cyan("https://pedrouid.com"),
+  web: chalk.cyan("http://pedrouid.com"),
   npx: chalk.red("npx") + " " + chalk.white("pedrouid"),
   labelWork: chalk.white.bold("       Work:"),
   labelTwitter: chalk.white.bold("    Twitter:"),
