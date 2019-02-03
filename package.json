@@ -1,0 +1,39 @@
+{
+  "name": "pedrouid",
+  "version": "1.3.0",
+  "description": "A personal card for Pedro Gomes (@pedrouid)",
+  "main": "/bin/card.js",
+  "bin": {
+    "pedrouid": "./bin/card.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pedrouid/pedrouid.git"
+  },
+  "scripts": {
+    "prepublish": "npm run build",
+    "build": "node build.js",
+    "dev": "npm run build && node ./bin/card.js",
+    "lint": "standard",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "card",
+    "npm",
+    "npm card",
+    "npx",
+    "npx card",
+    "business card"
+  ],
+  "author": "Pedro Gomes <pedro@pedrouid.com> (http://pedrouid.com)",
+  "license": "MIT",
+  "files": [
+    "bin/card.js",
+    "bin/output"
+  ],
+  "devDependencies": {
+    "boxen": "^2.1.0",
+    "chalk": "^2.4.1",
+    "standard": "^12.0.1"
+  }
+}
